@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Assesment Test</h1>
+    </header>
+    <main>
+        <div class="quiz-container">
+            <div class="question-container">
+                <p  id="question">1. What is 2 + 2?</p>
+                <input type="radio" name="answer" value="a"> <label for="a">A) 3</label><br>
+                <input type="radio" name="answer" value="b"> <label for="b">B) 4</label><br>
+                <input type="radio" name="answer" value="c"> <label for="c">C) 5</label><br>
+                <button class="next-button"  onclick="nextQuestion()">Next</button>
+                <button class="submit-btn" >Submit</button>
+            </div>
+
+            <div class="score-container">
+                <p id="score">Score : 0</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
